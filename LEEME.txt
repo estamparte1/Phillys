@@ -1,0 +1,23 @@
+PHILLY'S PUNTO DE VENTA
+1. Descomprime este ZIP.
+2. Crea un repositorio público nuevo en GitHub llamado phillys-pos.
+3. Sube index.html, logo.png, icon.png, manifest.json y sw.js a la raíz del repositorio.
+4. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+5. Abre la URL HTTPS publicada en Safari o Chrome.
+6. iPhone: Compartir > Agregar a pantalla de inicio. Android: menú > Instalar aplicación.
+
+FUNCIONES
+- Apertura de turno con fecha, fondo inicial y existencia de Philly.
+- Cuatro productos con precios configurables.
+- Carrito y cobro en efectivo o tarjeta.
+- Compras hasta 20 por turno, indicando origen del dinero.
+- Conteo de Phillys vendidos y restantes.
+- Corte con ventas, efectivo, tarjeta, gastos de caja, efectivo esperado y diferencia con contado.
+- Historial de turnos y respaldos JSON.
+
+IMPORTANTE
+- La información se guarda solo en el navegador/dispositivo mediante localStorage.
+- Exporta respaldos JSON regularmente, especialmente antes de borrar historial o cambiar de teléfono.
+- Los turnos cerrados no son editables en esta versión.
+- No procesa cobros bancarios reales ni genera CFDI.
+- Imprimir/Guardar PDF usa el diálogo de impresión del navegador.
